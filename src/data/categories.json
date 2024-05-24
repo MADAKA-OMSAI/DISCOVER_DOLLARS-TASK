@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "name": "Fashion",
+      "image": "fashion.png",
+      "subcategories": [
+        {
+          "name": "Men",
+          "subcategories": [
+            { "name": "Ethnic Wear" },
+            { "name": "Casual Wear" },
+            { "name": "Formal Wear" }
+          ]
+        },
+        {
+          "name": "Women",
+          "subcategories": [
+            { "name": "Western Wear" },
+            { "name": "Ethnic Wear" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics",
+      "image": "electronics.png",
+      "subcategories": [
+        { "name": "Mobiles" },
+        { "name": "Laptops" },{
+          "name":"earpods"
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "image": "home.png",
+      "subcategories": [
+        { "name": "Furniture" },
+        { "name": "Decor" }
+      ]
+    },
+    {
+      "name": "Appliances",
+      "image": "appliances.jpg",
+      "subcategories": [
+        { "name": "Kitchen Appliances" },
+        { "name": "Home Appliances" }
+      ]
+    },
+    {
+      "name": "Grocery",
+      "image": "groceries.jpg",
+      "subcategories": [
+        { "name": "Pantry" },
+        { "name": "Beverages" },
+        { "name": "Snacks" }
+      ]
+    },
+    {
+      "name": "Beauty",
+      "image": "beauty.jpg",
+      "subcategories": [
+        { "name": "Skincare" },
+        { "name": "Makeup" },
+        { "name": "Fragrances" }
+      ]
+    }
+    
+  ]
+}

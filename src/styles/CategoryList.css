@@ -1,0 +1,67 @@
+.category-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.category-wrapper {
+  margin-right: 20px; /* Adjust spacing between categories */
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-image {
+  width: 40px;
+  height: 40px;
+}
+
+.subcategories {
+  padding-left: 20px;
+}
+
+.subcategories .category-wrapper {
+  margin-right: 0;
+}
+/* src/styles/CategoryList.css */
+.category-item:hover  {
+  background-color:rgb(241, 25, 25); 
+  opacity:0.7;
+ 
+}
+
+.category-item:hover span {
+  color:rgb(31, 31, 199); /* Change the text color to white on hover */
+}
+
+/* CategoryList.css */
+.category-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+}
+
+.category-item {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.category-image {
+  width: 40px;
+  height: 40px;
+}
+
+/* src/styles/CategoryList.css */
+.category-item:hover  {
+  background-color: rgba(0, 17, 255, 0.795); 
+  opacity: 0.7;
+}
+
+
